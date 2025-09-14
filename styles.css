@@ -33,7 +33,7 @@ body {
 }
 
 .hero-section:not(:has(:target)) #home {
-  display: block;
+  display: flex;
 }
 
 .main-nav {
@@ -77,21 +77,21 @@ body {
 
 /* ====== HOME ====== */
 /* === PROFILE === */
-#home {
-  display: none;
-  align-items: center;
-  justify-content: center;
-  min-height: 100%;
-}
+    #home {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    min-height: 100%;
+    }
 
-#home:target {
-  display: flex;
-}
+    #home:target {
+    display: flex;
+    }
 
-#home .profile-container {
-  max-width: 800px;  
-  margin: 0 auto;     
-}
+    #home .profile-container {
+    max-width: 800px;  
+    margin: 0 auto;     
+    }
 
 .profile-header {
   display: flex;
